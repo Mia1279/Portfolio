@@ -1,0 +1,12 @@
+/* Animations */
+.astronaut{
+	-webkit-animation: rock-naut 3s ease-in-out;
+}
+
+/* Keyframes */
+
+@-webkit-keyframes rock-naut {
+	0%  { -webkit-transform: rotate(0) translateY (0); }
+	50% { -webkit-transform: rotate(-5deg) translateY (-10px); }
+	100% { -webkit-transform: rotate(0) translateY (0); }
+}
